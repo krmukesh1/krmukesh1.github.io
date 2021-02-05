@@ -3,73 +3,62 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
-      crossorigin="anonymous"
-    />
+    <title>Component Libraray</title>
+    <link href="style.css" rel="stylesheet" />
   </head>
   <body>
-    <!-- navbar -->
-        <div class="container">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-              <div class="container-fluid">
-                <a class="navbar-brand" href="index.html">Developer</a>
-                <button
-                  class="navbar-toggler"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#navbarSupportedContent"
-                  aria-controls="navbarSupportedContent"
-                  aria-expanded="false"
-                  aria-label="Toggle navigation"
-                >
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                  <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                      <a class="nav-link active" aria-current="page" href="index.html">About</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="projects.html">Projects</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="blogs.html">Blogs</a>
-                    </li>
-                  
-                </div>
-              </div>
-            </nav>
-        </div>
+    <!-- nav -->
+    <nav class="navigation">
+      <div class="nav-brand">Developer</div>
+      <ul class="list-non-bullet nav-pills">
+        <li class="list-item-inline">
+          <a class="link link-active" href="/">Home</a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link" href="projects.html">Projects</a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link" href="blogs.html">Blogs</a>
+        </li>
+      </ul>
+    </nav>
+<!-- header -->
+<header class="hero">
+  <img class="hero-image" src="/images/hero.svg" />
+  <h1 class="hero-heading">Mukesh is the<span class="heading-inverted""> Web Developer</span></h1>
+</header>
 
-        <!-- body -->
-        <div class="container">
-          <div class="img">
-            <img src="">
-            <h4>I am a Web Developer</h4>
-          </div>
-          <div class="techmologies">
-            <h5>I'm Familier with HTML%, CSS3, Git, JavaScript, NodeJS, reactJS.</h5>
-          </div>
-          <div class="projects">
-           <h6> I like to showcase my work and thus, you can see my Projects hosted online</h6>
-           <button class="btn">BROWSE PROJECTS</button>
-          </div>
-          <div class="blogs">
-           <h6> I am also Working on Some technical and non technical blogs. I like to documents my journey of leraning</h6>
-           <button class="btn">READ BLOGS</button>
-          </div>
-        </div>
-        <footer>
-        <div class="container"></div>
-        </footer>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
-      crossorigin="anonymous"
-    ></script>
+<!-- offwhite section -->
+<section class="section ow">
+  <div class="container container-center">
+    <h1>Technologies</h1>
+    <p>I am familiar with HTML5, CSS3, Git, Javascript, ReactJs, NodeJs and Web Hosting</p>
+  </div>
+</section>
+<!-- white section -->
+<section class="section">
+  <div class="container container-center">
+    <h1>Projects</h1>
+    <p>I like to showcase my work and thus, you can see my projects hosted online</p>
+    <a class="link link-primary" href="/">See Projects</a>
+  </div>
+</section>
+<!-- offwhite section -->
+<section class="section ow">
+  <div class="container container-center">
+    <h1>Blogs</h1>
+    <p>I am also working on some technical and non technical blogs. I like to documnet my joourney of learning</p>
+    <a class="link link-secondary" href="/">Read Blogs</a>
+  </div>
+</section>
+<!-- footer -->
+<footer class="footer ">
+  <div class="footer-header">Social media presence</div>
+  <ul class="social-links list-non-bullet">
+    <li class="list-item-inline"> <a class="link" href="https://github.com/krmukesh1">github</a></li>
+    <li class="list-item-inline"><a class="link" href="https://twitter.com/Mukku_51">twitter</a></li>
+    <li class="list-item-inline"><a class="link" href="https://www.linkedin.com/in/mukesh-kumar-286162141/">linkedin</a></li>
+  </ul>
+</footer>
   </body>
 </html>
